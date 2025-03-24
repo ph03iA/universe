@@ -12,16 +12,15 @@ const textures = {};
 
 // **Preload Textures using LoadingManager**
 const loadingManager = new THREE.LoadingManager(() => {
-    console.log("All textures loaded");
     init(); // Call scene initialization only after textures are preloaded
 });
 
 const loader = new THREE.TextureLoader(loadingManager);
 
-textures.sphereBg = loader.load('../static/textures/1.webp');
-textures.nucleas = loader.load('../static/textures/2.webp');
-textures.star = loader.load('../static/textures/3.png');
-textures.texture2 = loader.load('../static/textures/4.png');
+textures.sphereBg = loader.load('public/textures/1.webp');
+textures.nucleas = loader.load('public/textures/2.webp');
+textures.star = loader.load('public/textures/3.png');
+textures.texture2 = loader.load('public/textures/4.png');
 
 function randomPointSphere(radius) {
     const theta = 2 * Math.PI * Math.random() - 1;
