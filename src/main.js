@@ -54,8 +54,8 @@ function init() {
     controls2.zoomSpeed = 0.5;
 
     const loader = new THREE.TextureLoader();
-    const textureSphereBg = loader.load('../static/textures/1.jpg');
-    const textureNucleas = loader.load('../static/textures/2.jpg');
+    const textureSphereBg = loader.load('../static/textures/1.webp');
+    const textureNucleas = loader.load('../static/textures/2.webp');
     const textureStar = loader.load('../static/textures/3.png');
     const texture2 = loader.load('../static/textures/4.png');
 

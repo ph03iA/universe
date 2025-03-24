@@ -3,7 +3,7 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background-image: url(../static/textures/bg.jpg);
+  background-image: url(../static/textures/bg.webp);
   background-size: cover;
   background-position: center;
   filter: brightness(135%);
