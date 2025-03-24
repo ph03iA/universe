@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls.js';
 import { createNoise3D } from 'simplex-noise';
+import { Analytics } from "@vercel/analytics/react"
 
 let renderer, scene, camera, sphereBg, nucleas, stars, controls, controls2;
 let timeout_Debounce;
