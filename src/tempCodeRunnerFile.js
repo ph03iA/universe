@@ -1,0 +1,1 @@
+    // Synchronize TrackballControls zoom target with OrbitControls target.
